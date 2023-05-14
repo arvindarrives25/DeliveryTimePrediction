@@ -17,8 +17,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='DeliveryTimePrediction',
     version='0.0.1',
-    author='Astha',
-    author_email='asthasachan0@gmail.com',
+    author='Arvind',
+    author_email='arvind@gmail.com',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
 )
